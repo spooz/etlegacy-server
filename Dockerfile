@@ -1,9 +1,9 @@
 FROM ubuntu:14.04
-MAINTAINER Bartosz Balukiewicz <bartekbalukiewicz@gmail.com>
 
 ENV ETL_PATH /root/etlegacy
 
 RUN apt-get update -y && apt-get install -y wget
+RUN apt-get install vim nano
 RUN wget -O etlegacy-v2.75-x86_64.tar.gz https://www.etlegacy.com/download/file/87 \
 && tar -xzf etlegacy-v2.75-x86_64.tar.gz && rm -f etlegacy-v2.75-x86_64.tar.gz \
 && mv etlegacy-v2.75-x86_64 $ETL_PATH
