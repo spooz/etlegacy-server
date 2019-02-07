@@ -16,7 +16,6 @@ RUN wget http://$PAK_MIRROR/pak0.pk3 \
 && wget http://$PAK_MIRROR/pak2.pk3 \
 && wget http://$PAK_MIRROR/mp_bin.pk3 \
 && wget http://$PAK_MIRROR/supplydepot2.pk3 \
-&& wget http://$PAK_MIRROR/te_valhalla.pk3 \
 && wget http://$PAK_MIRROR/sw_goldrush_te.pk3 \
 && wget http://$PAK_MIRROR/rocketrace_final2.pk3 \
 && wget http://$PAK_MIRROR/baserace_3.pk3
