@@ -7,4 +7,4 @@ docker run -p 27960:27960/udp --name etlegacy vimes/etlegacy-server
 ```
 
 ### Dockerhub:
-https://hub.docker.com/r/danshrader/etlegacy-server-lan/
+https://cloud.docker.com/repository/docker/vimes/etlegacy-server
