@@ -1,0 +1,9 @@
+version: '3'
+services:
+  etlegacy:
+    image: vimes/etlegacy-server
+    ports:
+      - "27960:27960/udp"
+    volumes:
+      - ./config/etl_server.cfg:/root/etlegacy/etmain/etl_server.cfg
+    restart: unless-stopped
