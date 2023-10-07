@@ -1,9 +1,10 @@
 # etlegacy-server
-Enemy Territory Legacy mod server image
+Enemy Territory Legacy mod server image.
+Updated to ETLegacy 2.81.1.
 
 ### Run:
 ```
-docker run -p 27960:27960/udp --name etlegacy vimes/etlegacy-server
+docker run -p 27960:27960/udp --name etlegacy spooz/etlegacy-server
 ```
 
 #### Docker compose way
@@ -17,4 +18,4 @@ docker-compose up -d
 ``` 
 
 ### Dockerhub:
-https://cloud.docker.com/repository/docker/vimes/etlegacy-server
+https://hub.docker.com/r/spooz/etlegacy-server
